@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <TableView layoutX="117.0" layoutY="105.0" prefHeight="171.0" prefWidth="379.0">
+        <columns>
+          <TableColumn prefWidth="126.66665649414062" text="Name" />
+          <TableColumn prefWidth="120.0" text="Number" />
+            <TableColumn prefWidth="132.0" text="Email" />
+        </columns>
+      </TableView>
+      <Label layoutX="222.0" layoutY="35.0" prefHeight="51.0" prefWidth="217.0" text="Contacts" textAlignment="JUSTIFY">
+         <font>
+            <Font name="System Bold" size="35.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnclose" layoutX="405.0" layoutY="307.0" mnemonicParsing="false" onAction="#setBtnclose" prefHeight="29.0" prefWidth="82.0" style="-fx-background-color: Tomato;" text="Close">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

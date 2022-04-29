@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="453.0" style="-fx-border-color: black;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Label layoutX="136.0" layoutY="51.0" prefHeight="49.0" prefWidth="201.0" text="Add Contact">
+         <font>
+            <Font name="System Bold" size="33.0" />
+         </font>
+      </Label>
+      <Label layoutX="115.0" layoutY="131.0" prefHeight="25.0" prefWidth="59.0" text="Name">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="47.0" layoutY="169.0" prefHeight="25.0" prefWidth="113.0" text="Contact Number">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="119.0" layoutY="212.0" prefHeight="25.0" prefWidth="51.0" text="Email">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnback" layoutX="175.0" layoutY="288.0" mnemonicParsing="false" onAction="#setBtnback" prefHeight="35.0" prefWidth="88.0" style="-fx-background-color: rgba(255, 99, 71, 1);" text="Go Back">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="btncontact" layoutX="287.0" layoutY="288.0" mnemonicParsing="false" onAction="#setBtncontact" prefHeight="35.0" prefWidth="88.0" style="-fx-background-color: DodgerBlue;" text="Add Contact">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <TextField layoutX="189.0" layoutY="131.0" />
+      <TextField layoutX="189.0" layoutY="169.0" />
+      <TextField layoutX="189.0" layoutY="212.0" />
+   </children>
+</AnchorPane>
